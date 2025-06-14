@@ -1,0 +1,89 @@
+{
+    sdl2 = {
+        __components_deps = {
+            main = "lib"
+        },
+        installdir = "/home/swebot/.xmake/packages/l/libsdl2/2.32.2/a4526c7932494d70a40ff416884febda",
+        version = "2.32.2",
+        components = {
+            main = {
+                links = "SDL2main"
+            },
+            lib = {
+                links = "SDL2",
+                syslinks = {
+                    "pthread",
+                    "dl"
+                }
+            },
+            __base = {
+                linkdirs = {
+                    "/home/swebot/.xmake/packages/l/libsdl2/2.32.2/a4526c7932494d70a40ff416884febda/lib"
+                },
+                sysincludedirs = {
+                    "/home/swebot/.xmake/packages/l/libsdl2/2.32.2/a4526c7932494d70a40ff416884febda/include",
+                    "/home/swebot/.xmake/packages/l/libsdl2/2.32.2/a4526c7932494d70a40ff416884febda/include/SDL2"
+                }
+            }
+        },
+        linkdirs = "/home/swebot/.xmake/packages/l/libsdl2/2.32.2/a4526c7932494d70a40ff416884febda/lib",
+        __requirestr = "libsdl2",
+        license = "zlib",
+        __requireconfs = {
+            alias = "sdl2"
+        },
+        __enabled = true,
+        envs = {
+            PATH = {
+                "/home/swebot/.xmake/packages/c/cmake/4.0.1/ee0342c3438b4e54a11f5d4d26f5299a/bin",
+                "/home/swebot/.xmake/packages/p/pkg-config/0.29.2/a0aba256d7674c1bbee15f0ee1534e92/bin",
+                "/home/swebot/.xmake/packages/p/pkg-config/0.29.2/a0aba256d7674c1bbee15f0ee1534e92/bin",
+                "/home/swebot/.xmake/packages/p/python/3.13.2/7dbc4c2192884093912e9407517d19cf/bin",
+                "/home/swebot/.xmake/packages/p/python/3.13.2/7dbc4c2192884093912e9407517d19cf/bin",
+                "/home/swebot/.xmake/packages/p/python/3.13.2/7dbc4c2192884093912e9407517d19cf/Scripts",
+                "/home/swebot/.xmake/packages/m/meson/1.8.2/4afe75969f544d02b75e9eeef5c388cc/bin",
+                "/home/swebot/.xmake/packages/n/ninja/v1.12.1/12c84655558847c09203ef9d0105b20d/bin",
+                "/home/swebot/.xmake/packages/m/m4/1.4.19/8b7c7260096844c1a8b1c8d773e64b3d/bin",
+                "/home/swebot/.xmake/packages/b/bison/3.8.2/9487e874749340f7949f47fa547bc060/bin",
+                "/home/swebot/.xmake/packages/b/bison/3.8.2/9487e874749340f7949f47fa547bc060/bin"
+            },
+            LD_LIBRARY_PATH = {
+                "/home/swebot/.xmake/packages/l/libx11/1.8.12/5b3492e889e848b2b511e3f3031c5538/lib"
+            },
+            PYTHONPATH = {
+                "/home/swebot/.xmake/packages/p/python/3.13.2/7dbc4c2192884093912e9407517d19cf/lib/python3.13/site-packages",
+                "/home/swebot/.xmake/packages/m/meson/1.8.2/4afe75969f544d02b75e9eeef5c388cc"
+            }
+        },
+        static = true,
+        syslinks = {
+            "pthread",
+            "dl"
+        },
+        sysincludedirs = {
+            "/home/swebot/.xmake/packages/l/libsdl2/2.32.2/a4526c7932494d70a40ff416884febda/include",
+            "/home/swebot/.xmake/packages/l/libsdl2/2.32.2/a4526c7932494d70a40ff416884febda/include/SDL2"
+        },
+        libfiles = {
+            "/home/swebot/.xmake/packages/l/libsdl2/2.32.2/a4526c7932494d70a40ff416884febda/lib/libSDL2main.a",
+            "/home/swebot/.xmake/packages/l/libsdl2/2.32.2/a4526c7932494d70a40ff416884febda/lib/libSDL2.a"
+        },
+        __components_orderlist = {
+            "main",
+            "lib"
+        },
+        links = {
+            "SDL2main",
+            "SDL2"
+        }
+    },
+    spdlog = {
+        sysincludedirs = "/home/swebot/.xmake/packages/s/spdlog/v1.15.3/281ab689e3ca4a04813dc400d53c7ac7/include",
+        __requirestr = "spdlog",
+        syslinks = "pthread",
+        __enabled = true,
+        license = "MIT",
+        version = "v1.15.3",
+        installdir = "/home/swebot/.xmake/packages/s/spdlog/v1.15.3/281ab689e3ca4a04813dc400d53c7ac7"
+    }
+}
