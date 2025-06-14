@@ -1,12 +1,12 @@
 # Rin - A Modern Galgame Engine
 
-Rin is a lightweight, high-performance galgame engine built with modern C++ technologies. Combining Dawn's next-generation graphics capabilities with EnTT's powerful Entity-Component-System architecture, Rin provides a robust foundation for visual novel development. Featuring Lua scripting similar to Kirikiri's workflow, Rin offers developers familiar tools with modern performance.
+Rin is a lightweight, high-performance galgame engine built with modern C++ technologies. Combining Dawn's next-generation graphics capabilities with EnTT's powerful Entity-Component-System architecture, Rin provides a robust foundation for visual novel development. Featuring Lua scripting easily, Rin offers developers familiar tools with modern performance.
 
 ## Key Features
 
-- **Modern Graphics Pipeline**: Powered by [Dawn](https://dawn.googlesource.com/dawn) for WebGPU/Vulkan/Metal/D3D12 support
+- **DirectMedia Layer**: Powered by [SDL3](https://www.libsdl.org/)
 - **Entity-Component-System Core**: Efficient game object management via [EnTT](https://github.com/skypjack/entt)
-- **Lua Scripting**: Kirikiri-like workflow with Lua 5.4+ for game logic
+- **Lua Scripting**: Workflow with Lua 5.4+ for game logic
 - **Cross-Platform**: Native support for Windows, macOS, and Linux
 - **Live Reload**: Hot-reloading of assets and scripts during development
 - **Multimedia Support**:
